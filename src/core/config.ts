@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 dotenv.config()
-const APP_PORT: number = parseInt(process.env.DEV_PORT)
+const APP_PORT: number = parseInt(process.env.PORT)
 const DOMAIN_NAME: string = process.env.DOMAIN_NAME ?? 'localhost'
 const HTTP_PROTOCOL: string = process.env.HTTP_PROTOCOL ?? 'http'
 
