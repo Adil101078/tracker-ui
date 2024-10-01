@@ -158,7 +158,7 @@ const GenerateUtilityButtons = (columns = [1, 2, 3, 4, 5, 6, 7, 8, 9]) => {
 
 const constant = {
 	// BASE_URL: 'https://vkbw8m66-8080.inc1.devtunnels.ms/api/v1/admin/',
-	BASE_URL: 'https://vkc4vf99-5000.inc1.devtunnels.ms/api/v1/',
+	BASE_URL: 'https://tracker-api-n5f2.onrender.com/api/v1/',
 	URLS: {
 		LOGIN: 'auth/sign-in',
 		LOGOUT: 'auth/sign-out',
